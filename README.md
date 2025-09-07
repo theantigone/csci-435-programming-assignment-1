@@ -8,7 +8,7 @@
 
 ## Description
 
-A small tool that highlights the **leaf-level GUI-components** (objects with which a useer would typically interact with) in a **mobile application** (e.g., Android) screenshot by parsing and processing metadata (in the form of `.xml` files). These leaf-level components describe the hierarchical screen structure of the GUI. Thus, by highlighting these components, the developers should have an easier time understanding the GUI.
+A small tool that highlights the **leaf-level GUI-components** (objects with which a user would typically interact with) in a **mobile application** (e.g., Android) screenshot by parsing and processing metadata (in the form of `.xml` files). Since these leaf-level components describe the hierarchical screen structure of the GUI, by highlighting these components, the developers should have an easier time understanding the mobile application's GUI.
 
 ## Preparations
 
