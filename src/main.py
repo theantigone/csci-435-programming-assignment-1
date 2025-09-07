@@ -1,25 +1,18 @@
 from functions.parse_xml import find_leaf_nodes_with_bounds
 from functions.draw_image import annotate_image
+from functions.handle_filenames import process_all_files
 
 import sys
 
 def main():
 	# checks if there are two arguments after "main.py"
-	args = sys.argv[2:]
+#	args = sys.argv[2:]
+#
+#	if not args:
+#		print('Usage: python main.py <xml_file> <png_file>')
+#		sys.exit(1)
 
-	if not args:
-		print('Usage: python main.py <xml_file> <png_file>')
-		sys.exit(1)
-
-	# parses the xml file
-	bounds_list = find_leaf_nodes_with_bounds(sys.argv[1])
-
-	# saves the location in the "processed" directory
-	image_file = sys.argv[2]
-	output_file = '../data/processed/'
-
-	# draws image_file and saves it to output_file
-	annotate_image(image_file, output_file, bounds_list)
+	process_all_files('data/raw/Programming-Assignment-Data/Programming-Assignment-Data', 'data/processed')
 
 if __name__ == '__main__':
 	main()

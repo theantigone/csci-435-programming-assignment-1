@@ -39,8 +39,8 @@ pip install -r requirements.txt
 
 ## Running the program
 
-Navigate to the `src` directory, then run:
+Run this command from the root of this project:
 ```bash
-python main.py <xml_file> <png_file>
+python src/main.py <xml_file> <png_file>
 ```
 where `<xml_file>` and `<png_file>` are your `.xml` and `.png` files, respectively.
