@@ -1,5 +1,10 @@
 # CSci 435 Programming Assignment 1
 
+- [Preparations](#preparations)
+- [Running the program](#running-the-program)
+
+---
+
 ## Preparations
 
 1. Clone the repository to your workspace:
@@ -41,6 +46,7 @@ pip install -r requirements.txt
 
 Run this command from the root of this project:
 ```bash
-python src/main.py <xml_file> <png_file>
+python src/main.py
 ```
-where `<xml_file>` and `<png_file>` are your `.xml` and `.png` files, respectively.
+
+See the `data/processed` directory to analyze the annotated PNGs
